@@ -15,3 +15,17 @@ Application.$controller("MainPageController", ["$scope", function ($scope) {
     };
 
 }]);
+
+Application.$controller("Table1Table1Controller", ["$scope",
+	function($scope) {
+		"use strict";
+		$scope.ctrlScope = $scope;
+	}
+]);
+
+Application.$controller("Table1LiveForm1Controller", ["$scope",
+	function($scope) {
+		"use strict";
+		$scope.ctrlScope = $scope;
+	}
+]);
